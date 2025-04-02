@@ -53,7 +53,7 @@ for i in range(näited):
         õpilase_vastus = float(input("Teie vastus: "))
         if õpilase_vastus == õige_vastus:
             print("Õige!")
-            õige_vastus += 1
+            õiged_näited += 1
         else:
             print(f"Vale. Õige vastus: {õige_vastus}")
     except ValueError:
