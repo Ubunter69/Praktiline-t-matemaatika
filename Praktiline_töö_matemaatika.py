@@ -18,14 +18,14 @@ while True:
     for i in range(näited):
         number1 = random.randint(1, 100)
         number2 = random.randint(1, 50)
-    
+    #operation = random.choice(tase1) рандомный знак из списка тасе1
         if valik == "tase1":
             operation = random.choice(tase1)
         elif valik == "tase2":
             operation = random.choice(tase2)
         elif valik == "tase3":
             operation = random.choice(tase3)
-    
+    #{number1} + {number2} значение переменных
         if operation == '+':
             õige_vastus = number1 + number2
             print(f"{number1} + {number2} = ")
